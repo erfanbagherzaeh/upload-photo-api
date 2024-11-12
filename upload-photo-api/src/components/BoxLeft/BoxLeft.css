@@ -1,7 +1,102 @@
-.VariantsLeft{
+
+.form-container {
     width: 40%;
-    height: 470px;
-    /* background-color: black; */
-     border: dashed 4px rgb(201, 198, 198);
-     border-radius: 20px;
-}
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: right;
+    margin-right: 12px;
+    margin-bottom: 90px;
+    
+  }
+  .font{
+    font-family: sahelFont;
+
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 27px;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 30px;
+    border: 1.5px solid #a2a2a2;
+    font-family: sahelFont;
+
+  }
+  @font-face {
+    font-family: sahelFont;
+    src: url(sahel-font-v1.0.0-alpha9/Farsi-Digits-Without-Latin/Sahel-FD-WOL.ttf);
+  }
+  .description{
+    height: 100px;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .erfan{
+    width: 200px;
+    height: auto;
+    background-color: #0056b3;
+  }
+
+
+
+  /* CheckboxesTags.css */
+
+.checkbox-tags-container {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .MuiAutocomplete-root {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  
+ 
