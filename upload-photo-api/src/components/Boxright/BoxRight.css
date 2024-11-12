@@ -1,0 +1,8 @@
+.VariantsRight{
+    width: 60%;
+    height: 470px;
+    /* background-color: black; */
+     border: dashed 4px rgb(201, 198, 198);
+     border-radius: 20px;
+     margin-right: 20px;
+}
